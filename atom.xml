@@ -35,13 +35,13 @@
   </entry>
   
   <entry>
-    <title>draft</title>
-    <link href="http://www.%E5%9C%A8%E8%B7%AF%E4%B8%8A.top/2019/06/07/draft/"/>
-    <id>http://www.在路上.top/2019/06/07/draft/</id>
+    <title>windows下Hexo+GitHub+阿里云搭建过程踩过的坑</title>
+    <link href="http://www.%E5%9C%A8%E8%B7%AF%E4%B8%8A.top/2019/06/07/windows%E4%B8%8BHexo/"/>
+    <id>http://www.在路上.top/2019/06/07/windows下Hexo/</id>
     <published>2019-06-07T02:32:41.000Z</published>
-    <updated>2019-06-12T01:12:20.020Z</updated>
+    <updated>2019-06-18T02:59:49.942Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;虽然网上的关于hexo+giuhub搭建博客的教程数不胜数，但是每个人搭建过程中遇到的问题各不相同。以下就我搭建过程中遇到的问题出一个简单的教程，通过该教程你能解决一些搭建过程中可能遇到的细节问题。在调校next之前建议大家先安装以下几个软件：</p><a id="more"></a><pre><code>网易有道词典（翻译插件比较好用,当然如果你英文比较好也可以不用）  notepad++(编辑代码,也可以用sublime text.个人比较喜欢notepad++风格)MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol><li><p>搜索”Settings”  next主题分为以下设置<br> Theme Core Configuration Settings：主题核心配置设置<br> Site Information Settings：网站信息设置<br> SEO Settings：搜索引擎设置<br> Menu Settings:菜单设置<br> Scheme Settings：主题风格设置<br> Sidebar Settings：侧栏设置<br> Post Settings：位置设置<br> Font Settings：字体设置<br> Third Party Services Settings：第三方服务设置<br> Tags Settings：标签设置<br> Animation Settings：动画设置   </p></li><li><p>在notepad++打开hexo文件夹作为工作区<br> <img src="https://i.imgur.com/6GDMpLN.png" alt></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;虽然网上的关于hexo+giuhub搭建博客的教程数不胜数，但是每个人搭建过程中遇到的问题各不相同。以下就我搭建过程中遇到的问题出一个简单的教程，通过该教程你能解决一些搭建过程中可能遇到的细节问题。在调校next之前建议大家先安装以下几个软件：</p><a id="more"></a><pre><code>网易有道词典（翻译插件比较好用,当然如果你英文比较好也可以不用）  notepad++(编辑代码,也可以用sublime text.个人比较喜欢notepad++风格)MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol><li><p>搜索”Settings”  next主题分为以下设置<br> Theme Core Configuration Settings：主题核心配置设置<br> Site Information Settings：网站信息设置<br> SEO Settings：搜索引擎设置<br> Menu Settings:菜单设置<br> Scheme Settings：主题风格设置<br> Sidebar Settings：侧栏设置<br> Post Settings：位置设置<br> Font Settings：字体设置<br> Third Party Services Settings：第三方服务设置<br> Tags Settings：标签设置<br> Animation Settings：动画设置   </p></li><li><p>在notepad++打开hexo文件夹作为工作区<br> <img src="https://i.imgur.com/6GDMpLN.png" alt><br> –未完待续</p></li></ol>]]></content>
     
     <summary type="html">
     

@@ -22,10 +22,6 @@
 <meta name="theme-color" content="#222">
 
 
-  
-  
-  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
-
 
 
   
@@ -38,6 +34,9 @@
 
 
 
+
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -109,15 +108,15 @@
 
   <meta name="description" content="&amp;emsp;&amp;emsp;虽然网上的关于hexo+giuhub搭建博客的教程数不胜数，但是每个人搭建过程中遇到的问题各不相同。以下就我搭建过程中遇到的问题出一个简单的教程，通过该教程你能解决一些搭建过程中可能遇到的细节问题。在调校next之前建议大家先安装以下几个软件：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="draft">
-<meta property="og:url" content="http://www.在路上.top/2019/06/07/draft/index.html">
+<meta property="og:title" content="windows下Hexo+GitHub+阿里云搭建过程踩过的坑">
+<meta property="og:url" content="http://www.在路上.top/2019/06/07/windows下Hexo/index.html">
 <meta property="og:site_name" content="在路上">
 <meta property="og:description" content="&amp;emsp;&amp;emsp;虽然网上的关于hexo+giuhub搭建博客的教程数不胜数，但是每个人搭建过程中遇到的问题各不相同。以下就我搭建过程中遇到的问题出一个简单的教程，通过该教程你能解决一些搭建过程中可能遇到的细节问题。在调校next之前建议大家先安装以下几个软件：">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://i.imgur.com/6GDMpLN.png">
-<meta property="og:updated_time" content="2019-06-12T01:12:20.020Z">
+<meta property="og:updated_time" content="2019-06-18T02:59:49.942Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="draft">
+<meta name="twitter:title" content="windows下Hexo+GitHub+阿里云搭建过程踩过的坑">
 <meta name="twitter:description" content="&amp;emsp;&amp;emsp;虽然网上的关于hexo+giuhub搭建博客的教程数不胜数，但是每个人搭建过程中遇到的问题各不相同。以下就我搭建过程中遇到的问题出一个简单的教程，通过该教程你能解决一些搭建过程中可能遇到的细节问题。在调校next之前建议大家先安装以下几个软件：">
 <meta name="twitter:image" content="https://i.imgur.com/6GDMpLN.png">
 
@@ -129,7 +128,7 @@
 
   
   
-  <link rel="canonical" href="http://www.在路上.top/2019/06/07/draft/">
+  <link rel="canonical" href="http://www.在路上.top/2019/06/07/windows下Hexo/">
 
 
 
@@ -139,7 +138,7 @@
   };
 </script>
 
-  <title>draft | 在路上</title>
+  <title>windows下Hexo+GitHub+阿里云搭建过程踩过的坑 | 在路上</title>
   
 
 
@@ -389,6 +388,8 @@
   
 
   
+    <div class="reading-progress-bar"></div>
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
@@ -397,7 +398,7 @@
   
   <div class="post-block">
   
-    <link itemprop="mainEntityOfPage" href="http://www.在路上.top/2019/06/07/draft/">
+    <link itemprop="mainEntityOfPage" href="http://www.在路上.top/2019/06/07/windows下Hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Author">
@@ -414,7 +415,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">draft
+          <h1 class="post-title" itemprop="name headline">windows下Hexo+GitHub+阿里云搭建过程踩过的坑
 
               
             
@@ -457,7 +458,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-12 09:12:20" itemprop="dateModified" datetime="2019-06-12T09:12:20+08:00">2019-06-12</time>
+                <time title="修改时间：2019-06-18 10:59:49" itemprop="dateModified" datetime="2019-06-18T10:59:49+08:00">2019-06-18</time>
               
             
           </span>
@@ -470,6 +471,17 @@
           
 
           
+          
+            <span id="/2019/06/07/windows下Hexo/" class="leancloud_visitors" data-flag-title="windows下Hexo+GitHub+阿里云搭建过程踩过的坑">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读次数：</span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
           
 
           
@@ -506,12 +518,16 @@ notepad++(编辑代码,也可以用sublime text.个人比较喜欢notepad++风�
 MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
 <li><p>搜索”Settings”  next主题分为以下设置<br> Theme Core Configuration Settings：主题核心配置设置<br> Site Information Settings：网站信息设置<br> SEO Settings：搜索引擎设置<br> Menu Settings:菜单设置<br> Scheme Settings：主题风格设置<br> Sidebar Settings：侧栏设置<br> Post Settings：位置设置<br> Font Settings：字体设置<br> Third Party Services Settings：第三方服务设置<br> Tags Settings：标签设置<br> Animation Settings：动画设置   </p>
 </li>
-<li><p>在notepad++打开hexo文件夹作为工作区<br> <img src="https://i.imgur.com/6GDMpLN.png" alt></p>
+<li><p>在notepad++打开hexo文件夹作为工作区<br> <img src="https://i.imgur.com/6GDMpLN.png" alt><br> –未完待续</p>
 </li>
 </ol>
 
       
     </div>
+
+    
+      
+
 
     
 
@@ -576,12 +592,46 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
           <div class="social_share">
             
             
-              <div id="needsharebutton-postbottom">
-                <span class="btn">
-                  <i class="fa fa-share-alt" aria-hidden="true"></i>
-                </span>
-              </div>
             
+              <div>
+                
+  <div class="bdsharebuttonbox">
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a class="bds_count" data-cmd="count"></a>
+  </div>
+  <script>
+    window._bd_share_config = {
+      "common": {
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": ""
+      },
+      "share": {
+        "bdSize": "16",
+        "bdStyle": "0"
+      },
+      "image": {
+        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
+        "viewText": "分享到：",
+        "viewSize": "16"
+      }
+    }
+  </script>
+
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+              </div>
             
           </div>
         
@@ -726,7 +776,7 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
             <div class="links-of-blogroll motion-element links-of-blogroll-block">
               <div class="links-of-blogroll-title">
                 <i class="fa  fa-fw fa-link"></i>
-                Links
+                友情链接
               </div>
               <ul class="links-of-blogroll-list">
                 
@@ -765,7 +815,11 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -798,16 +852,7 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
   
 
   
-    <span class="post-meta-divider">|</span>
-  
 
-  
-    <span class="post-meta-item-icon">
-      <i class="fa fa-eye"></i>
-    </span>
-    <span class="site-pv" title="总访问量">
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-    </span>
   
 </div>
 
@@ -830,12 +875,6 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
       </div>
     
 
-    
-      <div id="needsharebutton-float">
-        <span class="btn">
-          <i class="fa fa-share-alt" aria-hidden="true"></i>
-        </span>
-      </div>
     
 
     
@@ -880,6 +919,8 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
 
 
 
+  
+
 
 
   
@@ -890,6 +931,9 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/reading_progress/reading_progress.js"></script>
 
 
   
@@ -925,6 +969,9 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
 
 
   
+  <script src="/js/js.cookie.js?v=7.1.2"></script>
+  <script src="/js/scroll-cookie.js?v=7.1.2"></script>
+
 
   
 
@@ -936,7 +983,7 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
   
     <script>
   window.livereOptions = {
-    refer: '2019/06/07/draft/'
+    refer: '2019/06/07/windows下Hexo/'
   };
   (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
@@ -1277,50 +1324,82 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
 
 
   
-
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-  
-  <script src="/lib/needsharebutton/needsharebutton.js"></script>
   <script>
     
-      pbOptions = {};
-      
-        pbOptions.iconStyle = "box";
-      
-        pbOptions.boxForm = "horizontal";
-      
-        pbOptions.position = "bottomCenter";
-      
-        pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
-      
-      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    function addCount(Counter) {
+      var $visitors = $('.leancloud_visitors');
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
+        .done(function({ results }) {
+          if (results.length > 0) {
+            var counter = results[0];
+            
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text(counter.time + 1);
+            
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
+            
+              .fail(function ({ responseJSON }) {
+                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
+              })
+          } else {
+            
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text('Counter not initialized! More info at console err msg.');
+              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
+            
+          }
+        })
+        .fail(function ({ responseJSON }) {
+          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
+        });
+    }
     
-    
-      flOptions = {};
-      
-        flOptions.iconStyle = "box";
-      
-        flOptions.boxForm = "horizontal";
-      
-        flOptions.position = "middleRight";
-      
-        flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
-      
-      new needShareButton('#needsharebutton-float', flOptions);
-    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'fdnVKHt5VpjdmSh23oCRJ6Mh-gzGzoHsz')
+        .done(function({ api_server }) {
+          var Counter = function(method, url, data) {
+            return $.ajax({
+              method: method,
+              url: 'https://' + api_server + '/1.1' + url,
+              headers: {
+                'X-LC-Id': 'fdnVKHt5VpjdmSh23oCRJ6Mh-gzGzoHsz',
+                'X-LC-Key': 'JAyEvm6cX3OuPhGLgVhJ41k4',
+                'Content-Type': 'application/json',
+              },
+              data: data
+            });
+          };
+          
+            addCount(Counter);
+          
+        });
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
   </script>
 
 
@@ -1331,6 +1410,51 @@ MarkdownPad（编辑你的文章，有预览功能）</code></pre><ol>
   
 
   
+
+  
+
+  
+<script>
+  $('.highlight').not('.gist .highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      const selection = document.getSelection();
+      const selected = selection.rangeCount > 0 ? selection.getRangeAt(0) : false;
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+      
+        if (result) $(this).text('复制成功');
+        else $(this).text('复制失败');
+      
+      ta.blur(); // For iOS
+      $(this).blur();
+      if (selected) {
+        selection.removeAllRanges();
+        selection.addRange(selected);
+      }
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('复制');
+      }, 300);
+    }).append(e);
+  })
+</script>
+
 
   
 
